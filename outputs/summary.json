@@ -1,0 +1,45 @@
+{
+  "bias_numpy": 0.3233110824156037,
+  "bias_sklearn": 0.30220757353702854,
+  "mean_abs_weight_diff": 0.11374224197283543,
+  "sklearn_n_iter": 19,
+  "numpy_n_iter": 3000,
+  "confusion_matrix_numpy": [
+    [
+      41,
+      1
+    ],
+    [
+      2,
+      70
+    ]
+  ],
+  "confusion_matrix_sklearn": [
+    [
+      41,
+      1
+    ],
+    [
+      1,
+      71
+    ]
+  ],
+  "metrics": {
+    "NumPy (from scratch)": {
+      "Accuracy": 0.9737,
+      "Precision": 0.9859,
+      "Recall": 0.9722,
+      "F1": 0.979,
+      "ROC-AUC": 0.9957,
+      "LogLoss": 0.0769
+    },
+    "scikit-learn": {
+      "Accuracy": 0.9825,
+      "Precision": 0.9861,
+      "Recall": 0.9861,
+      "F1": 0.9861,
+      "ROC-AUC": 0.9954,
+      "LogLoss": 0.0777
+    }
+  }
+}
