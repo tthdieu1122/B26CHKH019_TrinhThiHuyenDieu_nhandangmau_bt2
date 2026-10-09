@@ -136,4 +136,4 @@ pred = model.predict(X_test_scaled, threshold=0.4)
 
 ## Tác giả
 
-Làm cá nhân — [Điền tên / MSSV của bạn tại đây].
+B26CHKH019_TrinhThiHuyenDieu.
